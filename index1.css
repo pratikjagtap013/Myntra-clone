@@ -1,0 +1,71 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+ position: sticky;
+ top: 0;
+ background-color: white;
+ height: 80px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.left img{
+   width: 60px;
+   height: 35px;
+}
+.container{
+
+   padding: 0 10vw;
+
+}
+nav{
+    font-size: 12px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+/* .rigth{
+    text-align: center;
+} */
+.inputbox{
+    width: 100px;
+}
+.search{
+    width: 30vw;
+    padding: 2px 12px;
+    border: 0.8px solid grey;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+.section{
+    background-color: rgb(245, 238, 238);
+    /* height: ; */
+    /* margin: 5px 10px; */
+   
+}
+.thankyouimg{
+    width: 85vw;
+    margin: 10px 0px;
+}
+.dealoftheday{
+    font-size: 50px;
+    text-decoration: solid;
+    color: rgb(84, 103, 148);
+
+}
+.itemimg{
+    width: 210px;
+   margin: 2px 5px;
+}
